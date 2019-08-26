@@ -1,4 +1,6 @@
-# vuetify
+# Grab Discount calculator
+
+this project help our calculate discount per people who order Grab food together
 
 ## Project setup
 ```
