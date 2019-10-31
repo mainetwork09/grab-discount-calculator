@@ -1,13 +1,31 @@
 $font-size-root: 16px;
-$body-font-family: 'Sarabun', sans-serif;
-$heading-font-family: 'Kanit', serif;
+$body-font-family: "Sarabun", sans-serif;
+$heading-font-family: "Kanit", serif;
+$primary-color: #ff9b01;
 
-@import '~vuetify/src/styles/main.sass';
+@import "~vuetify/src/styles/main.sass";
 
 @for $i from 1 through 6 {
   h#{$i} {
     font-family: "Kanit";
     font-weight: 700;
+  }
+}
+
+.v-application {
+  background-color: #fff !important;
+  .klaharn {
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
+  }
+  .v-toolbar__title {
+    line-height: 0;
+  }
+  .v-toolbar__content {
+    margin: 15px 0;
+  }
+  .v-content {
+    padding-top: 100px !important;
   }
 }
 
@@ -20,7 +38,8 @@ $heading-font-family: 'Kanit', serif;
   font-weight: 400;
 }
 
-.v-toolbar__title, .v-list-item__title {
+.v-toolbar__title,
+.v-list-item__title {
   font-family: $heading-font-family;
   font-weight: 700;
 }
