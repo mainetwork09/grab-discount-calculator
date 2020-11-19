@@ -7,7 +7,7 @@
     </v-content>
 
     <v-footer :color="color" padless>
-      <span class="white--text">&copy; {{ copyright_year }} by Magnetolabs</span>
+      <span class="white--text">&copy; {{ copyright_year }} by Craftsmancoder.com</span>
     </v-footer>
   </v-app>
 </template>
