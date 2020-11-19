@@ -14,7 +14,7 @@
     </v-navigation-drawer>
     <v-app-bar app :color="color" dark min-height="80" hide-on-scroll="true">
       <v-toolbar-title>
-        <img src="../assets/logo.png" width="165" alt />
+        <img src="https://via.placeholder.com/165x70?text=JibJib" width="165" alt />
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-menu right bottom>
