@@ -6,7 +6,7 @@
       <router-view></router-view>
     </v-content>
 
-    <v-footer :color="color" padless>
+    <v-footer :color="color">
       <span class="white--text">&copy; {{ copyright_year }} by Craftsmancoder.com</span>
     </v-footer>
   </v-app>
